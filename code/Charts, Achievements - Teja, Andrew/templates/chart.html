@@ -1,0 +1,164 @@
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/data.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap4.min.css"/>
+<script scr="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
+<script scr="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script>
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+  <script type="text/javascript" class="init">
+    $(document).ready(function() {
+      $('#table').DataTable({"pageLength":10,
+        "order": [5 , 'desc'],
+        colReorder: true});
+    } );</script>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><script>function disputeIframe(){setTimeout(function (){self.document.open();self.document.write("<h1><a style='font-weight: normal; color: #000; font-family: arial;' href='" + self.location.href + "' target='_top'>Iframes are not supported on a free plan.</a></h1>");                    self.document.close();},200);} try {if (self!=top){disputeIframe();}}catch(e){disputeIframe();}</script><link href="./background_files/bootstrap3.min.c.css" rel="stylesheet"><link rel="stylesheet" href="./background_files/font-awesome.min4.css"><link href="./background_files/hover-min.css" rel="stylesheet"><link href="./background_files/style.css" rel="stylesheet"><link href="./background_files/blocks.css" rel="stylesheet"><link href="./background_files/default1.css" rel="stylesheet"><link data="Template CSS" href="./background_files/custom-temp.css" rel="stylesheet"><link rel="stylesheet" type="text/css" href="./background_files/css"><link rel="stylesheet" type="text/css" href="./background_files/css(1)"><link rel="stylesheet" type="text/css" href="./background_files/css(1)"><style type="text/css" data="MasterPage Custom CSS"></style><style type="text/css" data="Page Custom CSS"></style><script src="./background_files/jquery-3.3.1.min.js.download" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script><script>if(!window.jQuery){document.write('<script src="//d33rxv6e3thba6.cloudfront.net/asset/sites/js/jquery-3.3.1.min.js"></scr'+'ipt>');}</script><meta name="page-source" site="//sites.simbla.com/1d9c7e23-8bb3-b63a-cf11-4fd06d9aeb08" page="home" site-id="5c993a7f18a2ca00124e6aa6" page-id="5c993a7f18a2ca00124e6aae" master-page-id="5c993a7f18a2ca00124e6aa8"><link rel="canonical" href="http://sites.simbla.com/1d9c7e23-8bb3-b63a-cf11-4fd06d9aeb08/"><meta name="generator" content="Simbla.com - Websites and online Databases"><script type="text/javascript" charset="UTF-8" src="./background_files/loader.js.download"></script><link id="load-css-0" rel="stylesheet" type="text/css" href="./background_files/tooltip.css"><link id="load-css-1" rel="stylesheet" type="text/css" href="./background_files/util.css"><script type="text/javascript" charset="UTF-8" src="./background_files/jsapi_compiled_format_module.js.download"></script><script type="text/javascript" charset="UTF-8" src="./background_files/jsapi_compiled_default_module.js.download"></script><script type="text/javascript" charset="UTF-8" src="./background_files/jsapi_compiled_ui_module.js.download"></script><script type="text/javascript" charset="UTF-8" src="./background_files/jsapi_compiled_corechart_module.js.download"></script></head><body data-spy="scroll" data-target=".navbar-collapse" class="simbla-page static-page "><div id="windowDiv" style="" class=""><div id="MarginsTop" style="height: 0px;" class="row"></div><div id="bodyContainer" style="width: 100%; background: none;"><div class="simblaEL simblaImg noborder" data-drag="MP6" id="MP6" style="position: relative;"></div><div class="simblaEL containerHolder noborder" data-drag="MP295" id="MP295" style="position: relative;"><div class="center-bg-image secondary container-fluid" data-title="Container" style="padding-top: 20px; padding-bottom: 20px;"><div class="simblaEL containerHolder" data-drag="MP296" id="MP296" style=""><div class="container center-bg-image" data-title="Container"><div class="row simblaEL rDivider" data-drag="MP297" id="MP297" data-title="Row" style=""><div class="sDivider col-md-2 index0" data-colsize="2" data-title="Column"><div class="simblaEL tc" data-drag="P414" id="P414" style="position: relative;"><div class="textContainer" style="cursor: text; padding-top: 23px; padding-right: 0px;"><div style="text-align: center;"><span style="color: rgb((0, 0, 0));"><font style="font-size: 20px;" face="Tahoma">SE Stock League</font></span><br></div></div></div></div><div class="sDivider col-md-10 index1" data-colsize="10" data-title="Column"><header data-title="Header" class="simblaEL container-fluid sticky shadow-none" data-drag="MP298" id="MP298" data-slide-type="none" data-opacity="64" data-style-class="secondary" style="position: relative; padding-top: 20px;"><nav class="simblaEL menuHolder2 navbar navbar-default" data-drag="MP299" id="MP299" data-menu-id="5c993a7f18a2ca00124e6ab7" data-type="none" data-font="Raleway" data-font-size="14" data-group-type="horizontal" data-font-weight="Normal" data-font-weight-hover="Normal" data-font-weight-current="Bold" data-font-color="#ffffff" data-font-color-hover="#ff9857" data-font-color-current="#ff9857" data-icon-color="" data-icon-color-hover="" data-icon-color-current="" data-ind-color="" data-ind-color-hover="" data-ind-color-current="" style="position: relative; padding-left: 0px;"><div class="container-fluid"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="[data-drag=&quot;MP299&quot;] .navbar-collapse"><span><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></span></button></div><div class="collapse navbar-collapse"><ul class="nav navbar-nav"><li><a style="font-family: Raleway; font-size: 14px; line-height: 14px; color: rgb(255, 152, 87); font-weight: bold; border: none; background-color: transparent; border-radius: 0px; margin-right: 0px; margin-left: 0px;" class=" current" href="http://sites.simbla.com/1d9c7e23-8bb3-b63a-cf11-4fd06d9aeb08/"><span>Portfolio</span></a></li><li><a style="font-family: Raleway; font-size: 14px; line-height: 14px; color: rgb((0, 0, 0)); font-weight: normal; border: none; background-color: transparent; border-radius: 0px; margin-right: 0px; margin-left: 0px;" class="" href="http://sites.simbla.com/1d9c7e23-8bb3-b63a-cf11-4fd06d9aeb08/andrew"><span>Achievements</span></a></li></ul></div></div></nav></header></div></div></div></div></div></div><div class="_dynamicContentArea simblaEL" type="dynamicContainer" data-drag="MP7" id="_MPID0" style="position: relative;"><div class="simblaEL containerHolder" data-drag="P157" id="P157" style="position: relative;"><div class="center-bg-image container-fluid container-parallax negative" data-title="Container" style="padding-top: 100px; padding-bottom: 100px; background-image: url(&quot;https://s3.amazonaws.com/simbla-static-2/2019/03/5c9922d327007d0012f7810a/5c993a7f18a2ca00124e6aa6/Ub1Iei1IpQV7s2n-GYJ9S2TU.jpg&quot;); background-repeat: no-repeat; background-size: cover; border-radius: 0px;" data-border-type="All"><div class="simblaEL containerHolder" data-drag="P407" id="P407" style="position: relative;"><div class="container center-bg-image" data-title="Container" data-border-type="All" style="border-radius: 0px; padding-right: 0px;"><div class="simblaEL containerHolder" data-drag="P426" id="P426" style="position: relative;"><div class="container center-bg-image" data-title="Container" style="padding-right: 600px;"></div></div><div class="row simblaEL rDivider" data-drag="P413" id="P413" data-title="Row" style="position: relative; padding-bottom: 40px;"><div class="sDivider col-md-12 index0" data-colsize="12" data-title="Column"></div></div></div></div></div></div></div></div><!--.container--></div><script src="./background_files/main.js.download"></script><script src="./background_files/simbla.js.download"></script></body></html>
+<body>
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+<h3><a href="{{fr}}">Achievements</a></h3>
+<!-- bar chart canvas element -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var myChart = Highcharts.chart('container', {
+        chart: {
+            zoomType: 'x'
+        },
+        title: {
+            text: 'Portfolio Value'
+        },
+        xAxis: {
+        	type: 'datetime'
+        },
+        yAxis: {
+            title: {
+                text: 'Value'
+            }
+        },
+        plotOptions: {
+                area: {
+                    fillColor: {
+                        linearGradient: {
+                            x1: 0,
+                            y1: 0,
+                            x2: 0,
+                            y2: 1
+                        },
+                        stops: [
+                            [0, Highcharts.getOptions().colors[0]],
+                            [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+                        ]
+                    },
+                    marker: {
+                        radius: 2
+                    },
+                    lineWidth: 1,
+                    states: {
+                        hover: {
+                            lineWidth: 1
+                        }
+                    },
+                    threshold: null
+                }
+            },
+        series: [{
+            name: 'You',
+            data: {{ port }}
+        },
+        {name: 'Benchmark: {{compare}}', data: {{ bm }}}]
+    });
+});
+</script>
+
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="row">
+            <div class="col-md-6">
+<h3>Your returns: {{ rt1 }} % </h3>
+<h3> Benchmark returns: {{ rt2 }} % </h3>
+
+<form onsubmit="location.href='/users/?user={{name}}&compare=' + document.getElementById('myInput').value; return false;">
+  <input type="text" id="myInput" />
+  <input type="submit" value = "Different stock" />
+</form>
+
+
+<form name="diffUser">
+    <select name="menu" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO">
+        <option selected="selected">Different User</option>
+        <option value="/users/?user=Andrew&compare={{compare}}">Andrew</option>
+        <option value="/users/?user=Bob&compare={{compare}}">Bob</option>
+        <option value="/users/?user=Carl&compare={{compare}}">Carl</option>
+        <option value="/users/?user=Dave&compare={{compare}}">Dave</option>
+    </select>
+</form>
+
+
+ <table id='table' class="table table-striped table-bordered" style="width:60%">
+        <thead>
+          <tr>
+            <th>Portfolio</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+        	{% for s in stocks %}
+        	<tr>
+        		<td>{{s[0]}}</td>
+        		<td>{{s[1]}}</td>
+        		<td>${{s[2]}}</td>
+        		<td>${{s[3]}}</td>
+        	</tr>
+        	{% endfor %}
+	</tbody>
+</table>
+</div>
+
+<div class="col-md-6">
+<div id="container2" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<script>
+var pied = {{ pie|tojson|safe}};
+Highcharts.chart('container2', {
+    chart: {
+        type: 'pie'
+    },
+    title: {
+        text: 'Portfolio Breakdown'
+    },
+    tooltip: {
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+    },
+    plotOptions: {
+        pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+                enabled: true,
+                format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+            }
+        }
+    },
+    series: [{
+        name: 'Holdings',
+        colorByPoint: true,
+        data: pied
+    }]
+});
+</script>
+</div>
+</div>
+</div>
+</div>
+</body>
+

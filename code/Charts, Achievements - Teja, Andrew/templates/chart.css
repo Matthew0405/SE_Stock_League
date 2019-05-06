@@ -1,0 +1,19 @@
+panel {
+	margin: 20px;
+}
+
+col-md-6 {
+	margin: 20px;
+}
+
+body {
+	margin: 20px;
+}
+
+.secondary {
+	background-color: #0b3545 !important;
+}
+
+container-fluid {
+	background-color: #0b3545 !important;
+}

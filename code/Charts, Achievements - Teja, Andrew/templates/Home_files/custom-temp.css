@@ -1,0 +1,222 @@
+.secondary h1 {
+	font-family : 'Tahoma';
+	font-size : 70px;
+	line-height : 85px;
+}
+.secondary h2 {
+	font-family : 'Raleway';
+	font-weight : normal;
+	line-height : 40px;
+	color : #ffffff;
+	font-size : 30px;
+}
+.secondary  {
+	background-color : #0b3545;
+}
+.secondary h3 {
+	font-family : 'Raleway';
+	color : #FF9857;
+	font-size : 20px;
+	line-height : 28px;
+	font-weight : bold;
+}
+.secondary p {
+	font-family : 'Tahoma';
+	font-size : 14px;
+	line-height : 20px;
+}
+.secondary i.fa:not([style*=":"]) {
+	background-color : #FF9857;
+	color : #0B3545;
+}
+h1 {
+	font-family : 'Raleway';
+	font-size : 50px;
+	line-height : 60px;
+	color : #083b50;
+	text-transform : uppercase;
+}
+p {
+	font-family : 'Tahoma';
+	font-size : 14px;
+	line-height : 20px;
+	color : #083b50;
+}
+i.fa:not([style*=":"]) {
+	color : #ff9857;
+	background-color : #ffffff;
+	font-size : 60px;
+	height : 70px;
+	width : 70px;
+	line-height : 70px;
+}
+h2 {
+	font-family : 'Raleway';
+	font-weight : normal;
+	font-size : 20px;
+	line-height : 28px;
+	color : #083B50;
+}
+h3 {
+	font-family : 'Raleway';
+	font-weight : bold;
+	color : #083B50;
+	font-size : 16px;
+}
+.btn:not([bs-btn]) {
+	background-color : #01B99D;
+	font-family : 'Raleway';
+}
+.basic h1 {
+	font-family : 'Raleway';
+	font-size : 50px;
+	line-height : 60px;
+	color : #083b50;
+	text-transform : uppercase;
+}
+.basic p {
+	font-family : 'Tahoma';
+	font-size : 14px;
+	line-height : 20px;
+	color : #083b50;
+}
+.basic i.fa:not([style*=":"]) {
+	color : #ff9857;
+	background-color : #ffffff;
+	font-size : 60px;
+	height : 70px;
+	width : 70px;
+	line-height : 70px;
+}
+.basic h2 {
+	font-family : 'Raleway';
+	font-weight : normal;
+	font-size : 20px;
+	line-height : 28px;
+	color : #083B50;
+}
+.basic h3 {
+	font-family : 'Raleway';
+	font-weight : bold;
+	color : #083B50;
+	font-size : 16px;
+}
+.basic .btn:not([bs-btn]) {
+	background-color : #01B99D;
+	font-family : 'Raleway';
+}
+.main  {
+	background-color : #f4f4f4;
+}
+.main h1 {
+	font-family : 'Raleway';
+	font-size : 50px;
+	line-height : 60px;
+	color : #01b99d;
+}
+.main h2 {
+	font-family : 'Raleway';
+	font-weight : normal;
+	font-size : 20px;
+	line-height : 28px;
+	color : #01b99d;
+	text-transform : none;
+}
+.main p {
+	font-family : 'Tahoma';
+	font-size : 14px;
+	line-height : 20px;
+	color : #083B50;
+}
+.main i.fa:not([style*=":"]) {
+	background-color : #01B99D;
+	color : #F4F4F4;
+	font-size : 20px;
+	height : 50px;
+	width : 50px;
+	line-height : 50px;
+}
+.main h4 {
+	font-family : 'Raleway';
+	color : #0B3545;
+	font-weight : normal;
+}
+.main h3 {
+	font-family : 'Cabin';
+	font-weight : bold;
+	color : #01B99D;
+	font-size : 40px;
+	line-height : 50px;
+}
+.main .btn:not([bs-btn]) {
+	color : #ffffff;
+	background-color : #01b99d;
+}
+.negative  {
+	background-image : url('//d33rxv6e3thba6.cloudfront.net/2016/11/585694100110bbd3464f1265/17489-1df91tg.jpg');
+	background-color : #FF9857;
+}
+.negative h1 {
+	font-family : 'Raleway';
+	font-size : 50px;
+	line-height : 60px;
+}
+.negative h2 {
+	font-family : 'Raleway';
+	font-weight : normal;
+	text-transform : none;
+}
+.negative p {
+	font-size : 14px;
+	line-height : 20px;
+	color : #ffffff;
+	font-family : 'Tahoma';
+}
+.negative i.fa:not([style*=":"]) {
+	font-size : 35px;
+	height : 100px;
+	width : 100px;
+	line-height : 100px;
+	color : #FF9857;
+	background-color : #ffffff;
+}
+.negative h4 {
+	font-family : 'Raleway';
+	font-weight : normal;
+	font-size : 18px;
+	line-height : 28px;
+}
+.negative .btn:not([bs-btn]) {
+	background-color : #0B3545;
+	color : #ffffff;
+}
+.secondary-color {
+ 	 color: #0b3545; 
+}
+.secondary-border-color {
+ 	 border-color: #0b3545; 
+}
+.secondary-background {
+ 	 background-color: #0b3545; 
+}
+.main-color {
+ 	 color: #f4f4f4; 
+}
+.main-border-color {
+ 	 border-color: #f4f4f4; 
+}
+.main-background {
+ 	 background-color: #f4f4f4; 
+}
+.negative-background {
+ 	 background-image: url('//d33rxv6e3thba6.cloudfront.net/2016/11/585694100110bbd3464f1265/17489-1df91tg.jpg'); 
+}
+.negative-color {
+ 	 color: #FF9857; 
+}
+.negative-border-color {
+ 	 border-color: #FF9857; 
+}
+.negative-background {
+ 	 background-color: #FF9857; 
+}
